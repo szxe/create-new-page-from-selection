@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "minAppVersion": "0.15.0",
   "description": "Right-click selected text to create a new note in a folder named after the current file.",
-  "author": "You",
+  "author": "szxe",
   "authorUrl": "",
-  "fundingUrl": ""
+  "fundingUrl": "https://github.com/szxe/create-new-page-from-selection/"
 }
+
