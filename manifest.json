@@ -1,0 +1,10 @@
+{
+  "id": "create-new-page-from-selection",
+  "name": "Create New Page from Selection",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Right-click selected text to create a new note in a folder named after the current file.",
+  "author": "You",
+  "authorUrl": "",
+  "fundingUrl": ""
+}
