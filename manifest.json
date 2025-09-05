@@ -1,12 +1,13 @@
 {
   "id": "create-new-page-from-selection",
   "name": "Create New Page from Selection",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "minAppVersion": "0.15.0",
   "description": "Right-click selected text to create a new note in a folder named after the current file.",
   "author": "szxe",
   "authorUrl": "",
   "fundingUrl": "https://github.com/szxe/create-new-page-from-selection/"
 }
+
 
 
