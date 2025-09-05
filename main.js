@@ -38,8 +38,9 @@ module.exports = class CreateNewPageFromSelection extends Plugin {
       newFile = await vault.create(newFilePath, "");
     }
 
-    const relativePath = newFile.basename;
-    const linkText = `[[${relativePath}|${relativePath}]]`;
+    const relativePath = normalizePath(folderName + "/" + newFileName.replace(/\.md$/, ""));
+    const linkText = `[[${relativePath}|${selectedText.trim()}]]`;
+
     editor.replaceSelection(linkText);
 
     const leaf = workspace.getLeaf(false);
