@@ -38,12 +38,12 @@ module.exports = class CreateNewPageFromSelection extends Plugin {
       newFile = await vault.create(newFilePath, "");
     }
 
-    const linkPath = newFile.path.replace(/\.md$/, "");
-    // 关键修改：带别名
-    const linkText = `[[${linkPath}|${selectedText.trim()}]]`;
+    const relativePath = newFile.basename;
+    const linkText = `[[${relativePath}|${relativePath}]]`;
     editor.replaceSelection(linkText);
 
-    await workspace.openLinkText(newFile.path, "", true, { active: true });
+    const leaf = workspace.getLeaf(false);
+    await leaf.openFile(newFile, { active: true });
   }
 
   onunload() {}
