@@ -4,6 +4,14 @@
 #源代码编译
 
 ```sh
+cd Path
+```
+
+```sh
+npm install
+```
+
+```sh
 npm run build
 ```
 
