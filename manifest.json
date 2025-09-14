@@ -1,14 +1,10 @@
 {
-  "id": "create-new-page-from-selection",
-  "name": "Create New Page from Selection",
-  "version": "1.0.3",
-  "minAppVersion": "0.15.0",
-  "description": "Right-click selected text to create a new note in a folder named after the current file.",
-  "author": "szxe",
-  "authorUrl": "",
-  "fundingUrl": "https://github.com/szxe/create-new-page-from-selection/"
+    "id": "page-manager-plugin",
+    "name": "页面管理插件",
+    "version": "1.1.0",
+    "main": "main.js",
+    "author": "szxe",
+    "description": "一个用于创建和删除页面的Obsidian插件",
+    "authorUrl": "https://github.com/szxe/create-new-page-from-selection/",
+    "isDesktopOnly": false
 }
-
-
-
-
